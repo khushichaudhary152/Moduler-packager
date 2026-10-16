@@ -209,83 +209,35 @@ flowchart TD
     style J1 fill:#E0F2F1,stroke:#26A69A
 ```
 
+
 ## 🧠 CONCEPTS DEMONSTRATED
 
-```mermaid
-flowchart LR
+| Concept | Purpose |
+|---|---|
+| 📦 Modules | Use built-in and custom Python modules |
+| 📁 Packages | Organize modules inside the `utilities` package |
+| ⚙️ Functions | Create reusable program operations |
+| 🔀 Conditional Statements | Handle different menu choices |
+| 🔁 Loops | Keep the menu running until Exit |
+| 📄 File Handling | Create, write, read and append files |
+| 🎲 Random Module | Generate random numbers |
+| 🆔 UUID Module | Generate unique identifiers |
+| 🕒 Datetime Module | Work with date and time |
+| 🧮 Math Module | Perform mathematical calculations |
+| 🔍 `dir()` | Explore module attributes |
+| 🖥️ Menu-Driven Program | Provide an interactive user interface |
 
-    A[🐍 Python Programming] --> B[📦 Modules]
-    A --> C[📁 Packages]
-    A --> D[⚙️ Functions]
-    A --> E[🔀 Menu-Driven Program]
+    
 
-    B --> B1[datetime]
-    B --> B2[math]
-    B --> B3[random]
-    B --> B4[uuid]
+    
 
-    C --> C1[utilities Package]
-    C1 --> C2[file_operations.py]
-    C1 --> C3[math_operations.py]
-
-    D --> D1[Reusable Functions]
-    D --> D2[User Input]
-    D --> D3[Return & Print]
-
-    E --> E1[if / elif / else]
-    E --> E2[while Loop]
-    E --> E3[User Choice]
-
-    F[🔍 Module Exploration] --> F1[dir()]
-    F --> F2[Module Attributes]
-
-    G[📄 File Handling] --> G1[Create]
-    G --> G2[Write]
-    G --> G3[Read]
-    G --> G4[Append]
-
-    H[🔐 Unique Identifiers] --> H1[UUID4]
-
-    style A fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
-    style B fill:#2196F3,stroke:#0D47A1,color:#fff,stroke-width:3px
-    style C fill:#9C27B0,stroke:#4A148C,color:#fff,stroke-width:3px
-    style D fill:#00ACC1,stroke:#006064,color:#fff,stroke-width:3px
-    style E fill:#E91E63,stroke:#880E4F,color:#fff,stroke-width:3px
-    style F fill:#26A69A,stroke:#00695C,color:#fff,stroke-width:3px
-    style G fill:#795548,stroke:#3E2723,color:#fff,stroke-width:3px
-    style H fill:#5C6BC0,stroke:#283593,color:#fff,stroke-width:3px
-
-    style B1 fill:#E3F2FD,stroke:#2196F3
-    style B2 fill:#E3F2FD,stroke:#2196F3
-    style B3 fill:#E3F2FD,stroke:#2196F3
-    style B4 fill:#E3F2FD,stroke:#2196F3
-
-    style C1 fill:#F3E5F5,stroke:#9C27B0
-    style C2 fill:#F3E5F5,stroke:#9C27B0
-    style C3 fill:#F3E5F5,stroke:#9C27B0
-
-    style D1 fill:#E0F7FA,stroke:#00ACC1
-    style D2 fill:#E0F7FA,stroke:#00ACC1
-    style D3 fill:#E0F7FA,stroke:#00ACC1
-
-    style E1 fill:#FCE4EC,stroke:#E91E63
-    style E2 fill:#FCE4EC,stroke:#E91E63
-    style E3 fill:#FCE4EC,stroke:#E91E63
-
-    style F1 fill:#E0F2F1,stroke:#26A69A
-    style F2 fill:#E0F2F1,stroke:#26A69A
-
-    style G1 fill:#EFEBE9,stroke:#795548
-    style G2 fill:#EFEBE9,stroke:#795548
-    style G3 fill:#EFEBE9,stroke:#795548
-    style G4 fill:#EFEBE9,stroke:#795548
-
-    style H1 fill:#E8EAF6,stroke:#5C6BC0
-```
+    
 
 ## 📸 SCREENSHOTS & 🎥 DEMO VIDEO
 
 ### 📸 Project Screenshots
+<img width="1920" height="4662" alt="op ss 7" src="https://github.com/user-attachments/assets/180f1481-7668-4808-a1fd-37e87b0c9d11" />
+
 
 
 ### 🎥 Demo Video
