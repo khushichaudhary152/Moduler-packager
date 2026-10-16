@@ -74,11 +74,71 @@ It provides an interactive **menu-driven interface** where different utilities c
     ├── 📦 __init__.py
     ├── 📄 file_operations.py
     └── 🧮 math_operations.py
+```
 
+## 📊 PROGRAM FLOW
 
+```mermaid
+flowchart TD
 
+    A([🚀 START]) --> B[📋 Display Main Menu]
+    B --> C{🔍 Choose Option}
 
+    C -->|1| D[🕒 Datetime & Time Operations]
+    C -->|2| E[🧮 Mathematical Operations]
+    C -->|3| F[🎲 Random Data Generation]
+    C -->|4| G[🆔 Generate Unique Identifier UUID]
+    C -->|5| H[📁 File Operations]
+    C -->|6| I[🔎 Explore Module Attributes using dir]
+    C -->|7| J([🚪 EXIT])
+
+    D --> D1[📅 Current Date & Time]
+    D1 --> B
+
+    E --> E1[√ Square Root]
+    E1 --> E2[⚡ Power]
+    E2 --> E3[🔢 Factorial]
+    E3 --> B
+
+    F --> F1[🎯 Enter Start & End]
+    F1 --> F2[🎲 Generate Random Number]
+    F2 --> B
+
+    G --> G1[🔐 Generate UUID4]
+    G1 --> B
+
+    H --> H1{📂 File Choice}
+    H1 -->|1| H2[📝 Create File]
+    H1 -->|2| H3[✍️ Write File]
+    H1 -->|3| H4[📖 Read File]
+    H1 -->|4| H5[➕ Append File]
+
+    H2 --> B
+    H3 --> B
+    H4 --> B
+    H5 --> B
+
+    I --> I1[📦 Datetime Module]
+    I1 --> I2[📦 Math Module]
+    I2 --> I3[📦 Random Module]
+    I3 --> I4[📦 UUID Module]
+    I4 --> B
+
+    J --> K([🎉 PROGRAM END])
+
+    style A fill:#00C853,stroke:#006B2E,color:#fff,stroke-width:3px
+    style B fill:#2196F3,stroke:#0D47A1,color:#fff,stroke-width:3px
+    style C fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
+    style D fill:#7E57C2,stroke:#4527A0,color:#fff
+    style E fill:#E91E63,stroke:#880E4F,color:#fff
+    style F fill:#00ACC1,stroke:#006064,color:#fff
+    style G fill:#5C6BC0,stroke:#283593,color:#fff
+    style H fill:#8D6E63,stroke:#4E342E,color:#fff
     style I fill:#26A69A,stroke:#00695C,color:#fff
     style J fill:#F44336,stroke:#B71C1C,color:#fff,stroke-width:3px
     style K fill:#607D8B,stroke:#263238,color:#fff,stroke-width:3px
 ```
+
+
+
+    
